@@ -80,7 +80,6 @@ public class EmployeeController : ControllerBase
     }
 
     [HttpGet("page/{page}")]
-    [Authorize]
     public IActionResult GetAll(int page)
     {
         try {
