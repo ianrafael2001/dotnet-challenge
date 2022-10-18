@@ -38,9 +38,16 @@ Para a entrega do desafio, foi estabelecido as Metas
 ## Endpoints
 
 ...
+![Preview](https://github.com/ianrafael2001/dotnet-challenge/blob/67e5c782e9acb93426c3429ae363c8b2a0a07930/assets/endPoints.png)
 
 ## Tabelas no PostgresSQL
 
+### Employees
+![Preview](https://github.com/ianrafael2001/dotnet-challenge/blob/67e5c782e9acb93426c3429ae363c8b2a0a07930/assets/Tabela%20Employees.png)
+### Projects
+![Preview](https://github.com/ianrafael2001/dotnet-challenge/blob/67e5c782e9acb93426c3429ae363c8b2a0a07930/assets/Tabela%20Projects.png)
+### Members
+![Preview](https://github.com/ianrafael2001/dotnet-challenge/blob/67e5c782e9acb93426c3429ae363c8b2a0a07930/assets/Tabela%20Members.png)
 ...
 
 ## Paginação
