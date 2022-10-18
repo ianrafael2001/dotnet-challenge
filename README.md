@@ -74,6 +74,9 @@ Os endpoints que são permitido paginação são:
  - <code>[POST] /Employee </code> : 
  > O primeiro nome deve ser obrigatorio
  - <code>[POST] /Project </code> : 
- > O nome do projeto deve ser obrigatorio
-  Não poderá ser cadastrado projetos com o mesmo nome
-  A data de encerramento deve ser posterior a data de criação do projeto
+ > O nome do projeto deve ser obrigatorio;
+ &nbsp;
+  Não poderá ser cadastrado projetos com o mesmo nome;
+ &nbsp;
+  A data de encerramento deve ser posterior a data de criação do projeto;
+ &nbsp;
