@@ -2,7 +2,20 @@
 
 Para o desafio da Concert, foi desenvolvido uma aplicação backend em C# usando o Framework .NET Core que consiste em criar uma API RESTFul para  o gerenciamento de dados, como, cadastro, edição, remoção e visualização das entidades listadas no escopo (Projetos, Empregados e Membros).
 
+# Como utilizar
+## Clonar o repositório
+<pre>
+<code>git clone https://github.com/ianrafael2001/dotnet-challenge.git</code>
+</pre>
+## Rodar a API
+<pre>
+<code>cd dotnet-challenge/desafio</code>
+<code>dotnet build</code>
+<code>dotnet run</code>
+</pre>
 
+A aplicação irá rodar no endereço <code>https://localhost:7246/</code>
+O Swagger poderá ser acessado apartir do endereço <code>https://localhost:7246/swagger/index.html</code>
 
 # Metas
 Para a entrega do desafio, foi estabelecido as Metas
