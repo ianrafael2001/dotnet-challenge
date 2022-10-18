@@ -57,6 +57,7 @@ Os endpoints que são permitido paginação são:
  <code>/Member/page/{page}</code>
  
  Exemplo de paginação para os dados do empregado:
+ 
  ![Preview](https://github.com/ianrafael2001/dotnet-challenge/blob/67e5c782e9acb93426c3429ae363c8b2a0a07930/assets/Tabela%20Members.png)
 
 ## Autenticação e Autorização
