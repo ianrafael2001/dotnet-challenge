@@ -11,7 +11,6 @@ namespace desafio.Controllers;
 public class LoginController : ControllerBase{
 
     [HttpPost]
-    [Route("login")]
     [AllowAnonymous]
     public IActionResult Login([FromBody] UserModel model)
     {
