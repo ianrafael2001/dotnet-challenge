@@ -5,7 +5,7 @@ Para o desafio da Concert, foi desenvolvido uma aplicação backend em C# usando
 
 
 # Metas
-Para a entrega do desafio, foi estabelicido as Metas
+Para a entrega do desafio, foi estabelecido as Metas
 
 **✅**• Utilizar banco de dados PostgresSQL ou Mysql para persistência. 
 
