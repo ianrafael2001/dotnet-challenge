@@ -29,7 +29,7 @@ Para a entrega do desafio, foi estabelecido as Metas
 
 **✅**• Escolha algum endpoint e adicione uma ou mais regras de negócio. Exemplo. “O Projeto não pode ter o nome de ‘Google’” 
 
->Utilizando Validations, foi adiocionado regras de negócio para certos endpoints, tais como, "Um projeto não deve ter nome repetido", "A data de encerramento não pode ser antes da data de criação"
+>Utilizando Validator, foi adiocionado regras de negócio para certos endpoints, tais como, "Um projeto não deve ter nome repetido", "A data de encerramento não pode ser antes da data de criação"
 
 **❌**• Executar projeto localmente via Docker
 
@@ -56,14 +56,27 @@ Os endpoints que são permitido paginação são:
  <code>/Project/page/{page}</code>; 
  <code>/Member/page/{page}</code>
  
- Exemplo de paginação para os dados do empregado:
- 
- ![Preview](https://github.com/ianrafael2001/dotnet-challenge/blob/67e5c782e9acb93426c3429ae363c8b2a0a07930/assets/Tabela%20Members.png)
+ Exemplo de paginação para os dados do empregado: 
+
+ ![Preview](https://github.com/ianrafael2001/dotnet-challenge/blob/8af2cddff9aba196656cbf0d869517d84a327b2a/assets/Pagination.png)
 
 ## Autenticação e Autorização
 
-...
+ Para a realização da autenticação e autorização foi adicionado a rota <code>/Login</code>, que retorna um token que poderá ser utilizado nas rotas de adição e remoção de membros <code>[POST] /Member<code> e  <code>[DELETE] /Member/{id}</code>.
+ Foi criado uma entidade estática <code>User</code> para poder simular o login.
+ 
+### Login
+ ![Preview](https://github.com/ianrafael2001/dotnet-challenge/blob/8af2cddff9aba196656cbf0d869517d84a327b2a/assets/Pagination.png)
+
 
 ## Regras de Negócio
-
-...
+ Foram adicionado tais regras de negocio para as rotas:
+ - <code>[POST] /Employee </code> : 
+ > O primeiro nome deve ser obrigatorio
+ - <code>[POST] /Project </code> : 
+ > O nome do projeto deve ser obrigatorio;
+ &nbsp;
+  Não poderá ser cadastrado projetos com o mesmo nome;
+ &nbsp;
+  A data de encerramento deve ser posterior a data de criação do projeto;
+ &nbsp;
