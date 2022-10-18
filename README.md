@@ -73,9 +73,7 @@ Os endpoints que são permitido paginação são:
  Foram adicionado tais regras de negocio para as rotas:
  - <code>[POST] /Employee </code> : 
  > O primeiro nome deve ser obrigatorio
-  - <code>[POST] /Project </code> : 
+ - <code>[POST] /Project </code> : 
  > O nome do projeto deve ser obrigatorio
- > Não poderá ser cadastrado projetos com o mesmo nome
- > A data de encerramento deve ser posterior a data de criação do projeto
-
-...
+  Não poderá ser cadastrado projetos com o mesmo nome
+  A data de encerramento deve ser posterior a data de criação do projeto
