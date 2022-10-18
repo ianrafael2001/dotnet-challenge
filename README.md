@@ -31,7 +31,7 @@ Para a entrega do desafio, foi estabelecido as Metas
 
 >Utilizando Validator, foi adiocionado regras de negócio para certos endpoints, tais como, "Um projeto não deve ter nome repetido", "A data de encerramento não pode ser antes da data de criação"
 
-**❌**• Executar projeto localmente via Docker
+**❌**• Ainda não feito
 
 >Ainda não foi possivel executar o projeto localmente via Docker 
 
