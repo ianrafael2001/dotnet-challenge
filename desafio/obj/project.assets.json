@@ -2406,11 +2406,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lastg\\OneDrive\\Documentos\\projetos\\Concert\\desafio\\desafio.csproj",
+      "projectUniqueName": "C:\\Users\\lastg\\OneDrive\\Documentos\\projetos\\Concert\\dotnet-challenge\\desafio\\desafio.csproj",
       "projectName": "desafio",
-      "projectPath": "C:\\Users\\lastg\\OneDrive\\Documentos\\projetos\\Concert\\desafio\\desafio.csproj",
+      "projectPath": "C:\\Users\\lastg\\OneDrive\\Documentos\\projetos\\Concert\\dotnet-challenge\\desafio\\desafio.csproj",
       "packagesPath": "C:\\Users\\lastg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lastg\\OneDrive\\Documentos\\projetos\\Concert\\desafio\\obj\\",
+      "outputPath": "C:\\Users\\lastg\\OneDrive\\Documentos\\projetos\\Concert\\dotnet-challenge\\desafio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lastg\\AppData\\Roaming\\NuGet\\NuGet.Config"

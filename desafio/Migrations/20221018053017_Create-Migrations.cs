@@ -4,7 +4,7 @@
 
 namespace desafio.Migrations
 {
-    public partial class fixcolumns : Migration
+    public partial class CreateMigrations : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

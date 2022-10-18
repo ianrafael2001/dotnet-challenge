@@ -12,8 +12,8 @@ using desafio.Context;
 namespace desafio.Migrations
 {
     [DbContext(typeof(EFContext))]
-    [Migration("20221015212233_update-tables")]
-    partial class updatetables
+    [Migration("20221018053017_Create-Migrations")]
+    partial class CreateMigrations
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -125,13 +125,13 @@ namespace desafio.Migrations
 
             modelBuilder.Entity("desafio.Entity.ProjectEntity", b =>
                 {
-                    b.HasOne("desafio.Entity.EmployeeEntity", "Employee")
+                    b.HasOne("desafio.Entity.EmployeeEntity", "Manager")
                         .WithMany()
                         .HasForeignKey("managerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Employee");
+                    b.Navigation("Manager");
                 });
 #pragma warning restore 612, 618
         }

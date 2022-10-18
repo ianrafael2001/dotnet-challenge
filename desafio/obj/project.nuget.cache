@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uKyCEZyuMHNotvA2wZE65zeuFJuUm9HGsBmXY/58dqNoccX2S71OsVvi2LZR/VyyPvBEhramhrQG5KF0yr/0TA==",
+  "dgSpecHash": "FJ0EpVkqCOZjNigSS9QbisY70KsiJtjPA4DRZiRueVCS0b7CDjMNTUEcxAZCjjeDTHF0tOOSvitZsM3E1xFm7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lastg\\OneDrive\\Documentos\\projetos\\Concert\\desafio\\desafio.csproj",
+  "projectFilePath": "C:\\Users\\lastg\\OneDrive\\Documentos\\projetos\\Concert\\dotnet-challenge\\desafio\\desafio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lastg\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
     "C:\\Users\\lastg\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
