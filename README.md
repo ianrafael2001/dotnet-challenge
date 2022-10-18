@@ -52,8 +52,8 @@ Para a entrega do desafio, foi estabelecido as Metas
 
 Os endpoints que são permitido paginação são:
 
- <code>/Employee/page/{page}</code>
- <code>/Project/page/{page}</code>
+ <code>/Employee/page/{page}</code>; 
+ <code>/Project/page/{page}</code>; 
  <code>/Member/page/{page}</code>
  
  Exemplo de paginação para os dados do empregado:
