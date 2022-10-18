@@ -66,9 +66,9 @@ Para a entrega do desafio, foi estabelecido as Metas
 
 Os endpoints que são permitido paginação são:
 
- <code>/Employee/page/{page}</code>; 
- <code>/Project/page/{page}</code>; 
- <code>/Member/page/{page}</code>
+ <code>[GET] /Employee/page/{page}</code>; 
+ <code>[GET] /Project/page/{page}</code>; 
+ <code>[GET] /Member/page/{page}</code>
  
  Exemplo de paginação para os dados do empregado: 
 
@@ -76,7 +76,7 @@ Os endpoints que são permitido paginação são:
 
 ## Autenticação e Autorização
 
- Para a realização da autenticação e autorização foi adicionado a rota <code>/Login</code>, que retorna um token que poderá ser utilizado nas rotas de adição e remoção de membros <code>[POST] /Member</code> e  <code>[DELETE] /Member/{id}</code>.
+ Para a realização da autenticação e autorização foi adicionado a rota <code>[POST] /Login</code>, que retorna um token que poderá ser utilizado nas rotas de adição e remoção de membros <code>[POST] /Member</code> e  <code>[DELETE] /Member/{id}</code>.
  Foi criado uma entidade estática <code>User</code> para poder simular o login.
  
 ### Login
