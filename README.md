@@ -62,11 +62,11 @@ Os endpoints que são permitido paginação são:
 
 ## Autenticação e Autorização
 
- Para a realização da autenticação e autorização foi adicionado a rota <code>/Login</code>, que retorna um token que poderá ser utilizado nas rotas de adição e remoção de membros <code>[POST] /Member<code> e  <code>[DELETE] /Member/{id}</code>.
+ Para a realização da autenticação e autorização foi adicionado a rota <code>/Login</code>, que retorna um token que poderá ser utilizado nas rotas de adição e remoção de membros <code>[POST] /Member</code> e  <code>[DELETE] /Member/{id}</code>.
  Foi criado uma entidade estática <code>User</code> para poder simular o login.
  
 ### Login
- ![Preview](https://github.com/ianrafael2001/dotnet-challenge/blob/8af2cddff9aba196656cbf0d869517d84a327b2a/assets/Pagination.png)
+ ![Preview](https://github.com/ianrafael2001/dotnet-challenge/blob/0108b0d4790440503d3b8d48a371fb9cab6018c0/assets/Login.png)
 
 
 ## Regras de Negócio
