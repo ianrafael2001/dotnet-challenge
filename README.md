@@ -66,6 +66,7 @@ Os endpoints que são permitido paginação são:
  Foi criado uma entidade estática <code>User</code> para poder simular o login.
  
 ### Login
+User teste: <code>username: admin, password: admin</code>
  ![Preview](https://github.com/ianrafael2001/dotnet-challenge/blob/0108b0d4790440503d3b8d48a371fb9cab6018c0/assets/Login.png)
 
 
